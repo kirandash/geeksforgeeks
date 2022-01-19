@@ -1,4 +1,4 @@
-//User function Template for javascript
+// Given an unsorted array A of size N that contains only non-negative integers, find a continuous sub-array which adds to a given number S.
 
 /**
  * @param {number[]} arr
@@ -49,3 +49,12 @@ let sol = new Solution();
 console.log(sol.subarraySum([1, 2, 3, 7, 5], 5, 12));
 
 console.log(sol.subarraySum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 10, 15));
+
+/**
+ * Complexity Analysis:  
+ * 
+ * Time Complexity: O(n)
+ * 
+ * Space Complexity: O(1). 
+ * As constant extra space is required.
+ */
